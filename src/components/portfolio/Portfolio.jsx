@@ -17,10 +17,42 @@ import IMG14 from '../../assets/portfolio-14.jpg'
 import IMG15 from '../../assets/portfolio-15.jpg'
 import IMG16 from '../../assets/portfolio-16.jpg'
 import IMG17 from '../../assets/portfolio-17.jpg'
+import IMG18 from '../../assets/portfolio-18.jpg'
+import IMG19 from '../../assets/portfolio-19.jpg'
+import IMG20 from '../../assets/portfolio-20.jpg'
+import IMG21 from '../../assets/portfolio-21.jpg'
 import { motion } from 'framer-motion'
 import { showFromTopVariants } from '../motion/variants'
 
 const data = [
+  {
+    id: 19,
+    image: IMG19,
+    title: 'Accounting website for B2B Company in NextJS',
+    github: 'https://github.com/devandrewjpn/i3-site',
+    demo: 'https://i3-site.vercel.app/i3'
+  },
+  {
+    id: 18,
+    image: IMG18,
+    title: 'Rocketseat Course Project with React based on FIGMA Layout',
+    github: 'https://github.com/devandrewjpn/rocketseat-react-fundamentals',
+    demo: 'https://rocketseat-react-fundamentals.vercel.app/'
+  },
+  {
+    id: 21,
+    image: IMG21,
+    title: 'Digital Car Protect website in NextJS',
+    github: 'https://github.com/devandrewjpn/connect-website',
+    demo: 'https://agenciabrasildigital.com.br/projetos/connect/'
+  },
+  {
+    id: 20,
+    image: IMG20,
+    title: 'Digital Secure website in ReactJS',
+    github: 'https://github.com/devandrewjpn/site-uso-seguros',
+    demo: 'https://site-uso-seguros.vercel.app/'
+  },
   {
     id: 15,
     image: IMG15,
@@ -31,7 +63,7 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: 'React DOG Instagram',
+    title: 'React DOG Instagram ReactJS and API Connection',
     github: 'https://github.com/devandrewjpn/react-dog-project',
     demo: 'https://react-dog-project.vercel.app/login'
   },
