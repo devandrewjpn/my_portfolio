@@ -1,3 +1,65 @@
+<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+<a name="readme-top"></a>
+-->
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/devandrewjpn/my_portfolio">
+    <img src="public/favicon.svg" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">My Portfólio WebSite</h3>
+
+  <p align="center">
+    An full website build with ReactJS and Framer Motion
+    <br />
+    <a href="https://devandrew.com.br/">View Demo</a>
+    ·
+    <a href="mailto:yuutoandrew.jpn@gmail.com">Report Bug</a>
+  </p>
+</div>
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+[![Product Name Screen Shot][product-screenshot]](https://devandrew.com.br)
+
+
+This project was created with the aim of inserting my identity as a programmer on the internet and facilitating communication with the market.
+
+
+### Built With
+
+* [![React][React.js]][React-url]
+* [![Framer][Framer-Motion]][Framer-Motion-url]
+
+
+<!-- CONTACT -->
+## Contact
+
+Andrew Augusto - [@Linkedin](https://www.linkedin.com/in/andrew-oliveira-734b191b1/) - Andrew Oliveira
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+Some plus libs that i use in!
+
+* [Framer Motion](https://www.framer.com/motion/)
+* [Swiper JS](https://swiperjs.com/react)
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[product-screenshot]: public/print_home.png
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Framer-Motion]: https://img.shields.io/badge/Framer-black?style=for-the-badge&logo=framer&logoColor=blue
+[Framer-Motion-url]: https://www.framer.com/motion/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
