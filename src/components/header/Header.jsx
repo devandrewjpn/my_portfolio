@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
 import Cta from './Cta'
-import ME from '../../assets/eu.png'
+import ME from '../../assets/eu2.png'
 import HeaderSocials from './HeaderSocials'
 import { TypingText } from '../motion/typing-text'
 import { motion } from 'framer-motion';
