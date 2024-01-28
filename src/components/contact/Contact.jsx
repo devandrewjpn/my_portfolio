@@ -9,7 +9,7 @@ import { showFromTopVariants } from '../motion/variants'
 import { useForm } from 'react-hook-form'
 
 const Contact = () => {
-  const { register, handleSubmit, formState: { errors,isLoading } } = useForm()
+  const { register, handleSubmit } = useForm()
   const [sendinBtn,setSendinBtn] = useState('Send Message!')
   const [disabledBtn,setDisabledBtn] = useState(false)
 
