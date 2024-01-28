@@ -21,6 +21,8 @@ const Contact = () => {
     headers.append("Content-Type", "application/json")
     headers.append("Authorization", `Bearer ${process.env.API_EMAIL_TOKEN}`)
 
+    console.log(process.env.API_EMAIL_TOKEN,process.env.API_EMAIL_URL);
+
     const response = await fetch(process.env.API_EMAIL_URL, {
       method: 'POST',
       headers: headers,
