@@ -55,7 +55,6 @@ const Contact = () => {
 
     setSendinBtn('Send Message!')
     setDisabledBtn(false)
-
   }
 
 
