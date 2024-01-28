@@ -13,6 +13,8 @@ const Contact = () => {
   const [sendinBtn,setSendinBtn] = useState('Send Message!')
   const [disabledBtn,setDisabledBtn] = useState(false)
 
+  console.log(process.env.API_EMAIL_TOKEN,process.env.API_EMAIL_URL);
+
   const onSubmit = async (data) => {
     setSendinBtn('Sending..')
     setDisabledBtn(true)
