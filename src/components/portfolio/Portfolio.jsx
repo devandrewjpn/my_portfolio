@@ -183,8 +183,8 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         {data.map(({id,image,title,github,demo}) =>  {
           return (
-            <motion.div variants={showFromTopVariants(200,0.4)} initial="hidden" whileInView="visible" viewport={{once:true}}>
-              <article key={id} className='portfolio__item'>
+            <motion.div key={id} variants={showFromTopVariants(200,0.4)} initial="hidden" whileInView="visible" viewport={{once:true}}>
+              <article className='portfolio__item'>
                 <div className='portfolio__item-image'>
                   <img src={image} alt="" />
                 </div>
