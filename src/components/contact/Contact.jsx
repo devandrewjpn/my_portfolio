@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import './contact.css'
-import dotenv from 'dotenv';
 import { MdOutlineEmail } from 'react-icons/md'
 import { BsWhatsapp } from 'react-icons/bs'
 import { ToastContainer, toast } from 'react-toastify';
@@ -8,8 +7,6 @@ import 'react-toastify/dist/ReactToastify.css';
 import { motion } from 'framer-motion'
 import { showFromTopVariants } from '../motion/variants'
 import { useForm } from 'react-hook-form'
-
-dotenv.config();
 
 const Contact = () => {
   const { register, handleSubmit } = useForm()
