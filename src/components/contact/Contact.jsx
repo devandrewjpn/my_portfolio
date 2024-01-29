@@ -13,17 +13,15 @@ const Contact = () => {
   const [sendinBtn,setSendinBtn] = useState('Send Message!')
   const [disabledBtn,setDisabledBtn] = useState(false)
 
-  console.log(process.env.API_EMAIL_TOKEN,process.env.API_EMAIL_URL)
-
   const onSubmit = async (data) => {
     setSendinBtn('Sending..')
     setDisabledBtn(true)
 
     const headers = new Headers()
     headers.append("Content-Type", "application/json")
-    headers.append("Authorization", `Bearer ${process.env.API_EMAIL_TOKEN}`)
+    headers.append("Authorization", `Bearer ${process.env.REACT_APP_API_EMAIL_TOKEN}`)
 
-    const response = await fetch(process.env.API_EMAIL_URL, {
+    const response = await fetch(process.env.REACT_APP_API_EMAIL_URL, {
       method: 'POST',
       headers: headers,
       body: JSON.stringify({
