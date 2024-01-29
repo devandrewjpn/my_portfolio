@@ -9,8 +9,7 @@ import { showFromTopVariants } from '../motion/variants'
 import { useForm } from 'react-hook-form'
 
 const Contact = () => {
-  console.log(process.env.REACT_APP_API_EMAIL_TOKEN,process.env.REACT_APP_API_EMAIL_URL);
-  
+
   const { register, handleSubmit } = useForm()
   const [sendinBtn,setSendinBtn] = useState('Send Message!')
   const [disabledBtn,setDisabledBtn] = useState(false)

@@ -101,8 +101,8 @@ const Experience = () => {
           <h3>Frontend Development</h3>
           <div className="experience__content">
             {frontEndSkills.map((skill,i) => (
-              <motion.div variants={showFromTopVariants(200,i / 10)} initial="hidden" whileInView="visible" viewport={{once:true}}>
-                <article key={skill.id} className='experience__details'>
+              <motion.div  key={skill.id} variants={showFromTopVariants(200,i / 10)} initial="hidden" whileInView="visible" viewport={{once:true}}>
+                <article className='experience__details'>
                   <BsPatchCheckFill className="experience__details-icon" />
                   <div>
                     <h4>{skill.title}</h4>
@@ -117,8 +117,8 @@ const Experience = () => {
           <h3>Backend Development</h3>
           <div className="experience__content">
           {backEndSkills.map((skill,i) => (
-              <motion.div variants={showFromTopVariants(200,i / 10)} initial="hidden" whileInView="visible" viewport={{once:true}}>
-                <article key={skill.id} className='experience__details'>
+              <motion.div key={skill.id} variants={showFromTopVariants(200,i / 10)} initial="hidden" whileInView="visible" viewport={{once:true}}>
+                <article className='experience__details'>
                   <BsPatchCheckFill className="experience__details-icon" />
                   <div>
                     <h4>{skill.title}</h4>
