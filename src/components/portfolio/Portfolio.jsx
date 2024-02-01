@@ -11,7 +11,7 @@ const Portfolio = () => {
   useEffect(() => {
     const fetchProjects = async () => {
       try {
-        const response = await fetch(process.env.REACT_APP_API_LIST_PROJECTS);
+        const response = await fetch("https://portfolioapi.devandrew.com.br/projects/");
 
         if (!response.ok) {
           throw new Error('Network response was not ok');
