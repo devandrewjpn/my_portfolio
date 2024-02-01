@@ -8,6 +8,8 @@ const Portfolio = () => {
 
   const [projects, setProjects] = useState([])
 
+  console.log(process.env.REACT_APP_API_LIST_PROJECTS)
+
   useEffect(() => {
     const fetchProjects = async () => {
       try {
