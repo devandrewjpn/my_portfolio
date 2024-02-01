@@ -8,28 +8,8 @@ import Portfolio from './components/portfolio/Portfolio'
 import Testimonials from './components/testimonials/Testimonials'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
-// import { useEffect } from 'react'
 
 const App = () => {
-
-//   useEffect(() => {
-//     const fetchProjects = async () => {
-//         try {
-//           const response = await fetch("https://portfolioapi.devandrew.com.br/projects/");
-    
-//           if (!response.ok) {
-//             throw new Error('Network response was not ok');
-//           }
-    
-//           const data = await response.json();
-//           console.log(data);
-//         } catch (error) {
-//           console.error('Error fetching projects:', error);
-//         }
-//       };
-    
-//       fetchProjects();
-// }, []);
 
   return (
     <>
