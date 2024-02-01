@@ -12,33 +12,24 @@ import { useEffect } from 'react'
 
 const App = () => {
 
-  useEffect(() => {
-    const fetchProjects = async () => {
-        try {
-          const response = await fetch(
-            "https://portfolioapi.devandrew.com.br/projects/",
-            {
-              method: 'GET',
-              headers: {
-                "Content-Type": "application/json",
-              },
-              mode: 'no-cors'
-            }
-          );
+//   useEffect(() => {
+//     const fetchProjects = async () => {
+//         try {
+//           const response = await fetch("https://portfolioapi.devandrew.com.br/projects/");
     
-          if (!response.ok) {
-            throw new Error('Network response was not ok');
-          }
+//           if (!response.ok) {
+//             throw new Error('Network response was not ok');
+//           }
     
-          const data = await response.json();
-          console.log(data);
-        } catch (error) {
-          console.error('Error fetching projects:', error);
-        }
-      };
+//           const data = await response.json();
+//           console.log(data);
+//         } catch (error) {
+//           console.error('Error fetching projects:', error);
+//         }
+//       };
     
-      fetchProjects();
-}, []);
+//       fetchProjects();
+// }, []);
 
   return (
     <>
