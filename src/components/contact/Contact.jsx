@@ -20,9 +20,8 @@ const Contact = () => {
 
     const headers = new Headers()
     headers.append("Content-Type", "application/json")
-    headers.append("Authorization", `Bearer ${process.env.REACT_APP_API_EMAIL_TOKEN}`)
 
-    const response = await fetch(process.env.REACT_APP_API_EMAIL_URL, {
+    const response = await fetch('https://apiemail.devandrew.com.br/sendEmail', {
       method: 'POST',
       headers: headers,
       body: JSON.stringify({
